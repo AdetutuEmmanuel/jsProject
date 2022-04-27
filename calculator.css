@@ -1,0 +1,46 @@
+body{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      background: linear-gradient(to right, orange, green);
+      box-sizing: border-box;
+      display:flex;
+      justify-content:center;
+      margin: 0 auto;
+}
+.container{
+      display: grid;
+      justify-content: center;
+      align-content: center;
+       min-height: 100vh;
+       width: 80%;
+       grid-template-columns: repeat(4, 100px);
+       grid-template-rows: minmax(100px, auto) repeat(5, 100px);
+       
+     
+}
+.container button{
+      font-size: 30px;
+}
+.display{
+      grid-column: 1/-1 ;
+      background-color: white;
+      text-align: center;
+      font-size: 30px;
+      display: flex;
+      height: 100px;
+      flex-flow: row nowrap;
+      justify-content: flex-end;
+}
+
+p{
+      margin-right: 10px;
+}
+#eq{
+      grid-column: 2 span;
+}
+#plus{
+      grid-row: 2 span; 
+}
+.opt{
+      background-color: orangered;
+      color: white;
+}

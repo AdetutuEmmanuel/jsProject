@@ -1,0 +1,42 @@
+body{
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+}
+.parent{
+      background-color: rgb(223, 219, 219);
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      padding: 20px;
+      color: black;
+}
+h2{
+      text-align: center;
+      text-decoration: underline;
+}
+input{
+      border: 1px solid red;
+      padding: 5px;
+      margin: 5px;
+      width: 50%;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+}
+
+button{
+      background-color: orangered;
+      color: white;
+      font-size: 20px;
+      margin-bottom: 20px;
+      display: flex;
+     
+}
+.btn1{
+      margin-left: 100px;
+}
