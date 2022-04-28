@@ -16,7 +16,8 @@ console.log(allocator)
 
 function displayInfo(){
       pRegChecker = input3.value;
-      input3.value = "";
+      input3.value = ""; 
+      
       if (pRegChecker === pSeatN)
       {
             alert("Seat is already booked by " + pName);
